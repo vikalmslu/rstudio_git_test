@@ -12,4 +12,4 @@ surveys_plot <- ggplot(data = surveys_complete,
 
 # Draw the plot
 surveys_plot +
-  geom_point(alpha = 0.1, color = "blue")
+  geom_point(alpha = 0.1, aes(color = species_id))
